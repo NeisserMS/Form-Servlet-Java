@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title> Formulario </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="floating-labels.css" rel="stylesheet">
+     
+    </head>
+    <body>
+        <form class="form-signin" action="ServletControlDatos" >
+            <div class="text-center mb-4">
+                <h1 class="mb-3"><span class="text-dark">Formulario</h1>
+            </div>
+            <hr>
+            
+            <div class="form-label-group">
+              <input type="text" id="inputNombre" name="inputNombre" class="form-control" placeholder="Nombre" required>
+              <label for="inputNombre">Nombre</label>
+            </div>
+            
+            <div class="form-label-group">
+              <input type="text" id="inputApellidoPaterno" name="inputApellidoPaterno" class="form-control" placeholder="Apellido Paterno" required>
+              <label for="inputApellidoPaterno">Apellido Paterno</label>
+            </div>
+            
+            <div class="form-label-group">
+              <input type="text" id="inputApellidoMaterno" name="inputApellidoMaterno" class="form-control" placeholder="Apellido Materno" required>
+              <label for="inputApellidoMaterno">Apellido Materno</label>
+            </div>
+            
+            <div class="form-label-group">
+              <input type="email" id="inputCorreo" name="inputCorreo" class="form-control" placeholder="Correo eletrónico" required autofocus>
+              <label for="inputCorreo">Correo eletrónico</label>
+            </div>
+
+            <div class="form-label-group">
+              <input type="password" id="inputClave" name="inputClave" class="form-control" placeholder="Clave" required>
+              <label for="inputClave">Clave</label>
+            </div>
+            
+            <div class="form-label-group">
+                <label for="inputComentario"><h5>Comentario</h5></label><br><br>
+                <textarea class="form-control" id="inputComentario" name="inputComentario" rows="3"></textarea>
+            </div>
+            
+            <div class="form-label-group">
+                <div class="form-check">
+                    <label for="inputSex"><h5>Sexo</h5></label><br>
+                    <input class="form-check-input" type="radio" name="inputSexo" id="inputSexoH" value="Hombre">
+                    <label class="form-check-label" for="inputSexoH">Hombre</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="inputSexo" id="inputSexoM" value="Mujer">
+                    <label class="form-check-label" for="inputSexoM">Mujer</label>
+                </div>
+            </div>
+            
+            <div class="form-label-group">
+                <label for="inputInteres"> <h5> Area de interés </h5> </label><br><br>
+                <select class="custom-select" id="inputInteres" name="inputInteres">
+                  <option value="Seleccionar">Seleccionar..</option>
+                  <option value="Informatica">Informatica</option>
+                  <option value="Derecho">Derecho</option>
+                  <option value="matematicas">Matematicas</option>
+                  <option value="Fisica">Fisica</option>
+                </select>
+            </div>
+         
+            <button class="btn btn-lg btn-dark btn-block" type="submit" name="submitEnviar">Enviar</button> 
+            
+        </form>
+        <script src="js/jquery-3.5.1.min"></script>
+        <script src="js/bootstrap.min"></script>
+    </body>
+</html>
