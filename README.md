@@ -1,7 +1,7 @@
 
  # Java Web Form (html, css and bootstrap)
 
- Tarea del curso Desarrollo de Aplicaciones (UPAO), uno es usando boostrap y el otro es tal cual pidió el profesor.
+ Tarea del curso Desarrollo de Aplicaciones (UPAO), uno es usando bootstrap y el otro es tal cual pidió el profesor.
 
  #### Formulario usando Bootstrap
 
